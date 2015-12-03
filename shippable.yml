@@ -18,3 +18,8 @@ before_script:
 script:
   - cd sample
   - lein test2junit
+  
+notifications:
+  email:
+    test_ci2@yahoo.in
+  irc: "chat.freenode.net#test-irc"
