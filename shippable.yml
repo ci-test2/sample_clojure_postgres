@@ -21,5 +21,5 @@ script:
   
 notifications:
   email:
-    test_ci2@yahoo.in
+    varsha@shippable.com
   irc: "chat.freenode.net#test-irc"
