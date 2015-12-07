@@ -22,7 +22,4 @@ script:
 notifications:
   email:
     test_ci2@yahoo.in
-  irc: 
-    pull_requests: true
-    channels:
-      - "chat.freenode.net#test-irc"
+  irc: "chat.freenode.net#test-irc"
