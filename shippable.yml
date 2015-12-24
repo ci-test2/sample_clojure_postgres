@@ -6,6 +6,9 @@ lein:
   
 build_image: drydock/u14clopls:tip
 
+services:
+  - postgres
+
 # Addons used by app
 addons:
   postgresql: "9.3"
